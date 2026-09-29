@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 group :jekyll_plugins do
   gem 'jekyll'
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
