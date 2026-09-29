@@ -9,18 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
+[CV in PDF version](https://drive.google.com/file/d/1GIgr5vrp0uOsi6Hs34_84SMtxBczLwrY/view?usp=sharing)
+
 Education
 ======
 * B.Sc. in Computer Science and Technology, Dalian University of Technology (DUT), China, Sep 2023 – Expected Jun 2027
-  * GPA: 4.21/5.00, Rank: 3rd/155
+  * GPA: **4.21/5.00**, Rank: **3rd/155**
   * Core Coursework: Compiler Principles (100), Discrete Mathematics (99), Artificial Intelligence (97), Data Structures and Algorithms (97), Computer Composition (95), C++ Programming (94)
 * Exchange Student, Computer Science, University of California, Santa Barbara (UCSB), Mar 2026 – Jun 2026
   * Funded by China Scholarship Council (CSC)
-  * Coursework: CMPSC 291K Special Topics in Foundation Models (A), CMPSC 5B Introduction to Data Science II (A+)
+  * Coursework: CMPSC 291K Special Topics in Foundation Models (**A**), CMPSC 5B Introduction to Data Science II (**A+**)
 
 Research Experience
 ======
 **Layer Importance of Houlsby Adapters in Decoder-Only Transformers: An Ablation Study on GPT-2**
+
 *Course Research Project, UCSB CMPSC 291K (2-person team), advised by Prof. Xifeng Yan — May 2026 – Sep 2026*
 
 * Investigated whether the adapter layer-importance pattern found in BERT (encoder-only) generalizes to decoder-only, causal-attention architectures
