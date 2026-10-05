@@ -16,12 +16,11 @@ This project investigated whether adapter layer-importance patterns observed in 
 
 We inserted Houlsby adapters into all 24 layers of GPT-2 Medium and designed a post-training ablation framework, including single-layer bypass and contiguous layer-span analysis.
 
-Experiments were conducted on SST-2, MNLI, and RTE, with comparisons against BERT-large.
+Experiments were conducted on SST-2, MNLI, and RTE, with comparisons against BERT-large on SST-2.
 
 Key findings:
 - GPT-2 exhibits different adapter importance patterns from BERT.
 - Adapter importance is task-dependent: SST-2 emphasizes Layer 0, while MNLI shows a bimodal pattern with a peak at Layer 7.
-- Layer-span ablations reveal inter-adapter coupling, suggesting that single-layer importance alone is insufficient for pruning decisions.
 - RTE experiments showed that meaningful ablation analysis requires sufficient task learning and dataset scale.
 
 Technologies:

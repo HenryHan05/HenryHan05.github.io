@@ -29,12 +29,11 @@ Selected Research
 
 **Research question:** Do the adapter layer-importance patterns found in BERT (encoder-only) transfer to decoder-only, causal-attention architectures?
 
-**Method:** Inserted Houlsby adapters into all 24 layers of GPT-2 Medium and ran post-training ablations — single-layer bypass and an exhaustive 24×24 contiguous layer-span analysis — across SST-2 and MNLI, benchmarked against BERT-large.
+**Method:** Inserted Houlsby adapters into all 24 layers of GPT-2 Medium and ran post-training ablations — single-layer bypass on three GLUE benchmarks and an exhaustive 24×24 contiguous layer-span analysis — across SST-2, benchmarked against BERT-large.
 
 **Findings:**
 - GPT-2's adapter importance pattern differs from BERT's, with lower-to-middle layers mattering more
 - The pattern is task-dependent: SST-2 peaks at Layer 0, while MNLI is bimodal and peaks at Layer 7
-- Layer-span ablations reveal inter-adapter coupling, showing that single-layer importance alone is insufficient for pruning decisions
 - Extending the pipeline to a third task (RTE) showed that meaningful layer-importance analysis requires sufficient task learning, as limited training data resulted in near-chance performance and noisy ablation patterns
 
 Other Projects
