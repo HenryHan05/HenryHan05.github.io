@@ -29,7 +29,7 @@ Research Experience
 * Investigated whether the adapter layer-importance pattern found in BERT (encoder-only) generalizes to decoder-only, causal-attention architectures
 * Inserted Houlsby adapters into all 24 layers of GPT-2 Medium and implemented a post-training ablation methodology — single-layer bypass and an exhaustive 24x24 contiguous layer-span analysis
 * Benchmarked against BERT-large on SST-2, discovering an inverted importance profile: classification in GPT-2 relies primarily on lower layers (peaking at Layer 0, 3.1 pp drop), whereas BERT concentrates critical adaptation at the top (Layer 23, 4.0 pp drop).
-* Analyzed task complexity across GLUE, revealing that adapter importance shifts deeper as reasoning demands increase (from Layer 0 on SST-2 to a bimodal distribution peaking at Layer 7 on MNLI).
+* Analyzed task-dependent adapter importance across GLUE, finding a shift from Layer 0 dominance on SST-2 to a bimodal lower-to-middle-layer pattern peaking at Layer 7 on MNLI.
 * Identified an empirical boundary condition on RTE, demonstrating that meaningful adapter ablation requires sufficient task learning: data scarcity left the model near chance (54.15%), yielding noise-dominated ablation profiles where pruning decisions cannot be meaningfully evaluated.
 
 Projects
